@@ -68,3 +68,14 @@ nav{
 #nav-part2 h4:hover a{
     color: #fff;
 }
+
+#center{
+    height: 65vh;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
