@@ -78,4 +78,8 @@ nav{
     justify-content: space-between;
 }
 
+#left h3{
+    width: 30vw;
+    font-size: 2vw;
+}
 
