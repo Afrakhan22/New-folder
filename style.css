@@ -1,8 +1,14 @@
+@font-face{
+    font-family:neu ;
+    src:url(./NeueHaasDisplayMediu.ttf)
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family: 'neu';
 }
 
 html, body{
