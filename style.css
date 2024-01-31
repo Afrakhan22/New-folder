@@ -3,6 +3,17 @@
     src:url(./NeueHaasDisplayMediu.ttf)
 }
 
+@font-face{
+    font-family:neu ;
+    font-weight:100 ;
+    src:url(./NeueHaasDisplayLight.ttf)
+}
+
+@font-face{
+    font-family:neu ;
+    font-weight:200 ;
+    src:url(./NeueHaasDisplayRoman.ttf)
+}
 
 *{
     margin: 0;
@@ -223,18 +234,31 @@ to{
     #page2-bottom{
         height: 80vh;
         width: 100%;
-        background-color:aliceblue;
+        /* background-color:aliceblue; */
         display: flex;
-        padding: 4vw;
+        padding: 4.5vw;
         align-items: center;
         justify-content: space-between;
     }
 
     #page2-bottom h1{
-        font-size:3.5vw ;
-        width: 50%;
+        font-size:4vw ;
+        width: 60%;
+        line-height: 4vw;
     }
 
     #bottom-part2{
-        width: 30%;
+        width: 20%;
+        /* background-color: aqua; */
+    }
+
+    #bottom-part2 img{
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    #bottom-part2 p{
+        font-weight:200 ;
+        margin-top: 2vw;
+        font-size: 1vw;
     }
