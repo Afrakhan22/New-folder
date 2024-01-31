@@ -190,6 +190,10 @@ to{
     .con{
         white-space: nowrap;
         display: inline-block;
+        animation-name: move;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
     }
 
     #moving-text h1{
@@ -205,4 +209,13 @@ to{
         display: inline-block;
         background-color: #FE320A;
         margin: 1vw 2vw;
+    }
+
+    @keyframes move {
+        from{
+            transform: translateX(0);
+        }
+     to{
+        transform: translateX(-100%);
+     }   
     }
