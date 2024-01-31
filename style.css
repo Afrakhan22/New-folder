@@ -329,3 +329,19 @@ to{
         .elem:hover .overlay{
                top: 0;
         }
+
+        #elem-container{
+
+        }
+
+        #fixed-image{
+            height: 30vw;
+            width: 24vw;
+            background-color: red;
+            border-radius: 10px;
+            position: fixed;
+            z-index: 99;
+            left: 50%;
+            top: 25%;
+            /* display: none; */
+        }

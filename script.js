@@ -3,6 +3,6 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-var a = document.querySelector("#elem1")
-var image= a.getAttribute("data-image")
-console.log(image)
+// var a = document.querySelector("#elem1")
+// var image= a.getAttribute("data-image")
+// console.log(image)
