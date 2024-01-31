@@ -171,3 +171,38 @@ to{
         transform: translate(-20%,30%);
     }
     }
+
+    #page2{
+        min-height: 100vh;
+        width: 100%;
+        padding: 8vw 0;
+        background-color: #EFEAE3;
+    }
+
+    #moving-text{
+        overflow-x:auto ;
+        white-space: nowrap;
+    }
+    
+    #moving-text::-webkit-scrollbar{
+           display: none;
+    }
+    .con{
+        white-space: nowrap;
+        display: inline-block;
+    }
+
+    #moving-text h1{
+         font-size: 9vw;
+         /* background-color: lightblue; */
+         display: inline-block;
+    }
+
+    #circle{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #FE320A;
+        margin: 1vw 2vw;
+    }
