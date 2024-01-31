@@ -188,6 +188,7 @@ to{
         width: 100%;
         padding: 8vw 0;
         background-color: #EFEAE3;
+        position: relative;
     }
 
     #moving-text{
@@ -239,6 +240,8 @@ to{
         padding: 4.5vw;
         align-items: center;
         justify-content: space-between;
+        position: relative;
+        z-index: 9;
     }
 
     #page2-bottom h1{
@@ -261,4 +264,37 @@ to{
         font-weight:200 ;
         margin-top: 2vw;
         font-size: 1vw;
+    }
+
+    #page2 #gooey{
+        height: 32vw;
+        width: 32vw;
+        position: absolute;
+        border-radius: 50%;
+        background: linear-gradient(to top right, #ff2d03,#ff5c0b);
+        top:58%;
+        left: 25%;
+        filter: blur(20px);
+        animation-name: gooey;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes gooey {
+        from{
+            filter: blur(20px);
+            transform: translate(10%,-10%) skew(0);
+            to{
+                filter: blur(30px);
+                transform: translate(-10%,10%) skew(-12deg);
+            }
+        }
+    }
+
+    #page3{
+        height: 100vh;
+        width: 100%;
+        background-color:#efeae3 ;
     }
