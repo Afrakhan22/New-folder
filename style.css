@@ -293,14 +293,14 @@ to{
     }
 
     #page3{
-        height: 100vh;
+        min-height: 100vh;
         width: 100%;
         background-color:#efeae3 ;
         padding: 4vw 0;
     }
 
     .elem{
-        min-height: 150px;
+        height: 150px;
         width: 100%;
         border-bottom: 1px solid #6c686877;
         position: relative;
@@ -318,7 +318,7 @@ to{
         .elem .overlay{
             height: 100%;
             width: 100%;
-            background-color:#FF9831 ;
+        background-color:#FF9831 ;
             position: absolute;
             left: 0;
             top: -100%;
@@ -343,4 +343,6 @@ to{
             left: 50%;
             top: 25%;
             display: none;
+            background-size: cover;
+            background-position: center;
         }
