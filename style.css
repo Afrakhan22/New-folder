@@ -410,8 +410,8 @@ to{
     #footer-div2 h3{
         font-size: 1.3vw;
         font-weight:20;
-        margin-top: 2vw;
-        line-height: 4vw;
+        /* margin-top: 2vw;
+        line-height: 4vw; */
     }
 
     #footer-bottom{
@@ -432,4 +432,7 @@ to{
     #footer-div3{
              display: flex;
              justify-content: space-between;
+             display: flex;
+             justify-content: space-between;
+             padding-top: 3vw;
     }
