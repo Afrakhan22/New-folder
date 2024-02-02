@@ -373,7 +373,7 @@ to{
             /* align-items: flex-end; */
             justify-content: flex-end;
             flex-direction: column;
-            padding: 1vw 3vw;
+            padding: 3vw 3vw;
         }
 
         #footer h1{
@@ -381,8 +381,7 @@ to{
         }
 
         #footer-div{
-            height: 20vh;
-            width: 100%;
+           
             /* background-color: red; */
         }
 
@@ -390,9 +389,10 @@ to{
 
         
 #footer-div{
+    height: 30vh;
+    width: 100%;
     top: 3vw;
-        height: 50vh;
-        width: 100%;
+        
         /* background-color:aliceblue; */
         display: flex;
         padding: 4.5vw;
@@ -432,6 +432,6 @@ to{
 
     #footer-bottom p{
         padding: 3vw 0.5vw;
-        font-size: 2vw;
-        font-weight:10;  
+        font-size: 1.5vw;
+        font-weight:20;  
     }
