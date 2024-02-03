@@ -363,10 +363,10 @@ to{
           }
       
           .swiper-slide {
-            text-align: center;
-            font-size: 18px;
+            /* text-align: center;
+            font-size: 18px; */
             /* background: #fff; */
-         
+         padding:0 2vw;
             border-left: 1px solid #aaa7a7;
             width: 30%!important;
             /* width: 550px!important;
