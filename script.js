@@ -52,4 +52,7 @@ swiperAnimation()
 page4Animation()
 menuAnimation()
 
-setTimeout(function)
+// var loader = document.querySelector("#loader")
+// setTimeout(function(){
+// loader.style.top = "-100%"
+// },3000)
