@@ -93,6 +93,10 @@ nav{
     color: #fff;
 }
 
+nav h3{
+    display: none;
+}
+
 #center{
     height: 65vh;
     width: 100%;
@@ -316,6 +320,7 @@ to{
          align-items: center;
          padding: 0 2vw;
         }
+
         .elem h2{
             font-size: 3vw;
             position: relative;
@@ -374,7 +379,6 @@ to{
             margin-right: 150px!important; */
           }
       
-
         #page5{
             height: 100vh;
             width: 100%;
@@ -411,7 +415,6 @@ to{
         position: relative;
         z-index: 9;
     }
-
     
     #footer-div1 h4{
         display: flex;
@@ -427,6 +430,7 @@ to{
         font-size: 1.5vw;
         
     }
+
     #footer-div2 h3{
         font-size: 1.3vw;
         font-weight:20;
@@ -442,14 +446,12 @@ to{
         justify-content: space-between;
     }
 
-
     #footer-bottom p{
         padding: 3vw 0.5vw;
         font-size: 1.5vw;
         font-weight:20; 
     }
     
-
     #footer-div3{
              display: flex;
              justify-content: space-between;
@@ -464,65 +466,22 @@ to{
 #page1{
     min-height: 100vh;
     width: 100vw;
-    background-color: #EFEAE3;
-    position: relative;
     padding: 0 5vw;
 }
+
 nav{
     padding: 8vw 0vw;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content:space-between ;
 }
 
 nav img{
 height: 9vh;}
 
 #nav-part2{
-    display: flex;
-    align-items: center;
-    gap: 1vw;
+    display: none;
 }
 
-#nav-part2 h4{
-    padding: 10px 20px;
-    border: 1px solid #8f82826b;
-    border-radius: 50px;
-    font-weight: 500;
-    color: #3d3333;
-    transition: all ease 0.4s;
-    position: relative;
-    font-size: 18px;
-    overflow: hidden;
-}
-
-#nav-part2 h4::after{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color:#000;
-    left: 0;
-    bottom: -100%;
-    border-radius: 50%;
-    transition: all ease 0.4s;
-}
-
-#nav-part2 h4:hover::after{
-    bottom: 0;
-    border-radius: 0;
-}
-
-#nav-part2 h4 a{
-    color: #000000bb;
-    text-decoration: none;
-    position: relative;
-    z-index: 9;
-}
-
-#nav-part2 h4:hover a{
-    color: #fff;
+nav h3{
+    display: block;
 }
 
     }
