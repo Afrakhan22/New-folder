@@ -54,6 +54,7 @@ function loaderAnimation(){
     loader.style.top = "-100%"
     },4200)
 }
+
 swiperAnimation()
 page4Animation()
 menuAnimation()
