@@ -665,29 +665,126 @@ nav h3{
     animation-timing-function: ease-in-out;
 }
 
+.elem h2 {
+    font-size: 8vw;
+}
+
 #page4{
-    height: 40vh;
+    height:35vh;
     width: 100%;
-    background-color: #EFEAE3;
-    padding: 10vw 2vw;
+    /* background-color: #EFEAE3; */
+    padding: 2vw 1vw;
+   
 }
 
 .swiper-wrapper{
 margin-left: -100px;
 margin-right: 0; 
+
 }
 
 .swiper {
     width: 100%;
     height: 100%;
+   
   }
 
   
 
   .swiper-slide p{
-    font-weight:350 ;
-    font-size: 1.8vw;
+    font-weight:450 ;
+    font-size: 2.5vw;
   }
+
+  #page5{
+    height: 60vh;
+    width: 100%;
+    /* background-color: #EFEAE3; */
+}
+
+#footer{
+    position: fixed;
+    z-index: 9;
+    height: 80vh;
+    width: 100%;
+    bottom: 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1vw 3vw;
+}
+
+#footer h1{
+    font-size: 20vw;
+}
+
+#footer-div{
+height: 30vh;
+width: 100%;
+top: 3vw;
+display: flex;
+padding: 4.5vw;
+align-items: center;
+justify-content: space-between;
+position: relative;
+z-index: 9;
+}
+
+#footer-div1 h4{
+display: flex;
+align-items: center;
+position: relative;
+font-size:5vh;
+bottom: 1vw;
+}
+
+#footer-div2 p{
+font-weight:180 ;
+margin-top: 2vw;
+font-size: 3.2vw;
+
+}
+
+#footer-div2 h3{
+font-size: 1.5vw;
+font-weight:25;
+/* margin-top: 2vw;
+line-height: 4vw; */
+}
+
+#footer-bottom{
+border-top: 1px solid#dadada;
+height: 10vh;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+#footer-bottom p{
+padding: 3vw 2vw;
+font-size: 3vw;
+font-weight:30; 
+}
+
+
+#footer-div3{
+     display: flex;
+     justify-content: space-between;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 3vw;
+}
+
+
+
+
+
+
+
+
 
 
 
