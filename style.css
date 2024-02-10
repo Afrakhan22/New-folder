@@ -791,7 +791,7 @@ font-weight:30;
 
  }
 
- /* #loader{
+ #loader{
 height: 100%;
 width: 100%;
 background-color: #000;
@@ -846,4 +846,4 @@ animation-timing-function: linear;
         font-size: 10vw;
        
      }
- } */
+ }
